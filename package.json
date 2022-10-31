@@ -1,0 +1,37 @@
+{
+  "name": "diana-unofficial-index",
+  "packageManager": "pnpm@7.5.0",
+  "version": "1.0.2",
+  "author": {
+    "name": "星光の殲滅者",
+    "email": "starshine@aili.moe"
+  },
+  "engines": {
+    "node": ">=14.18.0",
+    "pnpm": ">=7"
+  },
+  "scripts": {
+    "dev": "vite --host",
+    "start": "vite preview",
+    "build": "vite build",
+    "module": "node script/new-module.js"
+  },
+  "dependencies": {
+    "aplayer": "^1.10.1",
+    "axios": "^0.27.2",
+    "vue": "^3.2.37",
+    "vue3-autocounter": "^1.0.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^2.0.0",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "@vue/compiler-sfc": "^3.2.37",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.1.0",
+    "postcss-px-to-viewport": "1.1.1",
+    "sass": "^1.53.0",
+    "terser": "^5.14.2",
+    "vite": "^3.0.0",
+    "vite-plugin-html": "^3.2.0"
+  }
+}
